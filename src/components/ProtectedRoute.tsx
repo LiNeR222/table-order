@@ -1,15 +1,1 @@
-import { Navigate } from "react-router-dom";
-
-interface ProtectedRouteProps {
-  children: React.ReactNode;
-}
-
-export function ProtectedRoute({ children }: ProtectedRouteProps) {
-  const token = localStorage.getItem("tablecrm_token");
-
-  if (!token) {
-    return <Navigate to="/login" replace />;
-  }
-
-  return <>{children}</>;
-}
+aW1wb3J0IHsgTmF2aWdhdGUgfSBmcm9tICJyZWFjdC1yb3V0ZXItZG9tIjsKCmludGVyZmFjZSBQcm90ZWN0ZWRSb3V0ZVByb3BzIHsKICBjaGlsZHJlbjogUmVhY3QuUmVhY3ROb2RlOwp9CgpleHBvcnQgZnVuY3Rpb24gUHJvdGVjdGVkUm91dGUoeyBjaGlsZHJlbiB9OiBQcm90ZWN0ZWRSb3V0ZVByb3BzKSB7CiAgY29uc3QgdG9rZW4gPSBsb2NhbFN0b3JhZ2UuZ2V0SXRlbSgidGFibGVjcm1fdG9rZW4iKTsKCiAgaWYgKCF0b2tlbikgewogICAgcmV0dXJuIDxOYXZpZ2F0ZSB0bz0iL2xvZ2luIiByZXBsYWNlIC8+OwogIH0KCiAgcmV0dXJuIDw+e2NoaWxkcmVufTwvPjsKfQ==

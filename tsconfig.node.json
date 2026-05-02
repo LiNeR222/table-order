@@ -1,12 +1,1 @@
-{
-  "compilerOptions": {
-    "composite": true,
-    "skipLibCheck": true,
-    "module": "ESNext",
-    "moduleResolution": "bundler",
-    "allowSyntheticDefaultImports": true,
-    "strict": true,
-    "noEmit": false
-  },
-  "include": ["vite.config.ts"]
-}
+ewogICJjb21waWxlck9wdGlvbnMiOiB7CiAgICAiY29tcG9zaXRlIjogdHJ1ZSwKICAgICJza2lwTGliQ2hlY2siOiB0cnVlLAogICAgIm1vZHVsZSI6ICJFU05leHQiLAogICAgIm1vZHVsZVJlc29sdXRpb24iOiAiYnVuZGxlciIsCiAgICAiYWxsb3dTeW50aGV0aWNEZWZhdWx0SW1wb3J0cyI6IHRydWUsCiAgICAic3RyaWN0IjogdHJ1ZSwKICAgICJub0VtaXQiOiBmYWxzZQogIH0sCiAgImluY2x1ZGUiOiBbInZpdGUuY29uZmlnLnRzIl0KfQo=
